@@ -29,7 +29,7 @@ for(let i = 1; i <= 100; i++ ){
 
 //Bonus
 
-const containerDom = document.querySelector('.container')
+const containerDom = document.querySelector('.container');
 
 for (let i = 1; i <= 100; i++ ){
     const square = document.createElement('div');
@@ -38,17 +38,17 @@ for (let i = 1; i <= 100; i++ ){
 
     if (i % 3 == 0 && i % 5 == 0) {
         x = `FizzBuzz`;
-        square.append(x)
+        square.append(x);
         square.classList.add('bg-fizzbuzz');
 
     }else if (i % 3 == 0) {
         x = `Fizz`;
-        square.append(x)
+        square.append(x);
         square.classList.add('bg-fizz');
 
     } else if (i % 5 == 0) {
         x = `Buzz`;
-        square.append(x)
+        square.append(x);
         square.classList.add('bg-buzz');
     } else{
         square.append(i);
