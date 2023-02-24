@@ -23,3 +23,19 @@ h1{
     align-items: center;
     background-color: white;
 }
+
+.bg-number{
+    background-color: #3d88ae;
+}
+
+.bg-fizz{
+    background-color: #0bd6a1;
+}
+
+.bg-buzz{
+    background-color: #ffd166;
+}
+
+.bg-fizzbuzz{
+    background-color: #f0466f;
+}
