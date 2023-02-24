@@ -39,3 +39,10 @@ h1{
 .bg-fizzbuzz{
     background-color: #f0466f;
 }
+
+@media screen and (max-width:1100px) {
+    .container{
+        width: 90%;
+    }
+    
+}
